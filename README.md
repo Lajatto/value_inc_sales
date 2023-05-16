@@ -100,7 +100,12 @@ data = data.drop('Month', axis = 1)
 data.to_csv('value_inc_transactions_cleaned.csv', index = False)
 
 ```
-
+## Insights
+<ul>
+  <li>The store is getting most of its profits from senior citizens. Maybe we lean into that by doing target promotions.</li>
+  <li>Item code 465780 is the most bought item in the store. Increasing the current stock of it would be a great idea.</li>
+  <li>We can get more business from small businesses and solo entrepreneurs by doing targeted campaigns.</li>
+</ul>
 
 
 
